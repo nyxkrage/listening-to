@@ -141,7 +141,7 @@
           
           // Try to get better album art from descent.live
           try {
-            const descentResponse = await fetch('https://corsproxy.io/?url=https://descent.live/app/spotify/track', {
+            const descentResponse = await fetch('https://proxy.concedo.workers.dev/?https://descent.live/app/spotify/track', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
